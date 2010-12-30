@@ -52,7 +52,7 @@ var PhotoInspectorSharedInstance    = nil;
         
         [scaleSlider setMinValue:50];
         [scaleSlider setMaxValue:150];
-        [scaleSlider setValue:100];
+        [scaleSlider setDoubleValue:100];
         
         [scaleSlider setTarget:self];
         [scaleSlider setAction:@selector(scale:)];
@@ -72,7 +72,7 @@ var PhotoInspectorSharedInstance    = nil;
         
         [rotationSlider setMinValue:0];
         [rotationSlider setMaxValue:360];
-        [rotationSlider setValue:0];
+        [rotationSlider setDoubleValue:0];
         
         [rotationSlider setTarget:self];
         [rotationSlider setAction:@selector(rotate:)];
